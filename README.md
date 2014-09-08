@@ -11,4 +11,8 @@ python merge_csv.py <filename> <shared column id>  <filename> <shared column id>
 python merge_csv.py countries.csv id regions.csv id
 ```
 
-The sample csv file countries.csv and regions.csv contains information about the airports.The files have shared key which is named **id** , the id of the airport.The program merge two file using **id** as shared key.
+The sample csv file countries.csv and regions.csv contains information about the airports.The files have shared key which is named ***id*** , the id of the airport.The program merge two file using ***id*** as shared key.
+
+#### Alternative method
+
+The merge of multiples files can also be done using python ***pandas*** library. The ***merge*** function provides the similar functionality of SQL merge. 
