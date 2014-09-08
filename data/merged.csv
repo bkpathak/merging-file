@@ -1,7 +1,0 @@
-id,attr1,attr2,attr3
-1,True,7,Purple
-2,False,19.8,Cucumber
-3,False,-0.5,"A string with a comma, because it has one"
-4,True,2,Nope
-5,True,4.0,Tuesday
-6,False,1,Failure
