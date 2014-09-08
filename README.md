@@ -6,9 +6,9 @@ The program creates the dictionary with the key from the shared key and update t
 #### Running the program
 
 Pass the filenames and share key column id as pair to the program.
-'''
+```
 python merge_csv.py <filename> <shared column id>  <filename> <shared column id>  ....
 python merge_csv.py countries.csv id regions.csv id
-'''
+```
 
 The sample csv file countries.csv and regions.csv contains information about the airports.The files have shared key which is named **id** , the id of the airport.The program merge two file using **id** as shared key.
